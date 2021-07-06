@@ -1,0 +1,22 @@
+### Post request with a header
+POST http://localhost:8080/request-param
+Content-Type: application/x-www-form-urlencoded
+
+username=aaa&age=30&username=bbb
+
+### Post request with a header
+POST http://localhost:8080/request-body-string
+Content-Type: text/plain
+
+hello
+
+### Send request with dynamic variables in request's body
+POST http://localhost:8080//request-body-json
+Content-Type: application/json
+
+{
+  "username": "hello",
+  "age": 20
+}
+
+###
